@@ -5,9 +5,13 @@ Objetivos
 
 * **Contenido de calidad** — Para ello son bienvenidas todas las contribuciones.
 
-Cómo contactarse:
+
+
+Contactarse:
+------------
 
 - [ciberseguridadparahumanos@nmg.systems](mailto:ciberseguridadparahumanos@nmg.systems).
+
 
 
 Powered by [Slate](https://slatedocs.github.io/slate/).
