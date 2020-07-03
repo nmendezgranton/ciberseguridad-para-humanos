@@ -85,7 +85,7 @@ Si todo lo anterior falló y has perdido o te han robado la información, podrá
 
 2. **Utilidad de respaldos de tu sistema operativo** - Algunos sistemas operativos incluyen funciones para hacer respaldos automáticos de la información. Aquí tienes instrucciones para [Windows 10](https://support.microsoft.com/es-ar/help/4027408/windows-10-backup-and-restore) y [Mac OS](https://support.apple.com/es-es/HT201250).
 
-3. **Backup en la nube** - Puedes usar [Google Drive](https://drive.google.com/), [Dropbox](https://www.dropbox.com/) u otros servcios de sincronización de archivos para mantener una copia de tus archivos en internet. Además con la ventaja de poder acceder a ellos en cualquier lugar y dispositivo.
+3. **Backup en la nube** - Puedes usar [Google Drive](https://drive.google.com/), [Dropbox](https://www.dropbox.com/) u otros servicios de sincronización de archivos para mantener una copia de tus archivos en internet. Además con la ventaja de poder acceder a ellos en cualquier lugar y dispositivo.
 
 # Limpiar tu equipo
 

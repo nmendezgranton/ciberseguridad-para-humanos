@@ -2,7 +2,7 @@
 
 **Autores**:
 
-Publicado por [NMG Group, Inc.](https://nmg.systems) con licencia Creative Commons Atribución CompartirIgual 4.0 Internacional. <br />**Puedes compartir este contenido con quien quieras** - [Compartir por WhatsApp](https://api.whatsapp.com/send?text=https%3A%2F%2Fciberseguridadparahumanos.org%2F).
+Publicado por [NMG Group, Inc.](https://nicolasmendez.com.ar) con licencia Creative Commons Atribución CompartirIgual 4.0 Internacional. <br />**Puedes compartir este contenido con quien quieras** - [Compartir por WhatsApp](https://api.whatsapp.com/send?text=https%3A%2F%2Fciberseguridadparahumanos.org%2F).
 
 <aside class="warning">
 <strong>Disclaimer</strong>:
