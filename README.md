@@ -17,4 +17,4 @@ NMG group, Inc. - [Web](https://nmg.systems) / [E-mail](mailto:ciberseguridadpar
 
 ------------
 
-Powered by [Slate](https://slatedocs.github.io/slate/).
+Construído utilizando [Slate](https://slatedocs.github.io/slate/).
