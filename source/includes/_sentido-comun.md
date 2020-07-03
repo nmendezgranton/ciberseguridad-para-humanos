@@ -15,7 +15,7 @@ Necesitan validar unos datos de tu cuenta y entre esos datos necesitan los 16 d�
 
 ### Pariente lejano millonario
 
-Si un príncipe Asturiano te ha escrito un e-mail, contándote que eres heredero de su tío por una fortuna de **1.500.000 EUR** y lo único que necesita es que le transfieras **USD 1.000** para poder comprar el ticket de avión y venir a traértelos... <br />
+Un príncipe Asturiano te ha escrito un e-mail, contándote que eres heredero de su tío por una fortuna de **1.500.000 EUR** y lo único que necesita es que le transfieras **USD 1.000** para poder comprar el ticket de avión y venir a traértelos... <br />
 **Algo anda mal, no?**
 
 ### Has ganado un iPhone 11!

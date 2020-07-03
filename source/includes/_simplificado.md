@@ -7,8 +7,13 @@ La seguridad informática es bastante similar a la seguridad física:<br />
 
 Esta guía está pensada para que gente que no tiene conocimientos técnicos, conozca y se proteja de riesgos básicos:
 
-* No utilizará lenguaje técnico.
+* No utilizaremos lenguaje técnico.
 * No abarca temas en profundidad.
+
+<aside class="warning">
+<strong>Si crees que te han hackeado esta guía no te ayudará:</strong><br />
+Esta guía es preventiva. Para este caso deberás contratar a un especialista que analice qué tan comprometido es tu caso, y evaluar cuánto y como es posible recuperarlo.
+</aside>
 
 # Claves/contraseñas
 
@@ -105,9 +110,9 @@ Las empresas se encuentran con todo un panorama distinto de seguridad y se debe 
 
 Es un tema extenso y realmente si la información es una preocupación, conviene contratar un profesional para analizar el caso particular. Dicho esto, algunas recomendaciones generales:
 
-1. **Cada quien con su clave** - No se deben compartir usuarios y claves entre usuarios.
+1. **Cada quien con su clave** - No se deben compartir usuarios y claves entre empleados. Esto permite trazabilidad (si hay algún problema), mayor control y aislar posibles problemas.
 
-2. **Política de mínimos privilegios** - No dar acceso a los usuarios a recursos (archivos, carpetas, etc.) a los que no necesiten acceso para llevar a cabo sus funciones. Esto permite reducir el impacto en caso que su usuario se vea comprometido.
+2. **Política de mínimos privilegios** - No dar acceso a los usuarios a recursos (archivos, carpetas) a los que no necesiten acceso para llevar a cabo sus funciones. Esto permite reducir el impacto en caso que su usuario se vea comprometido.
 
 3. **Controlar el uso de internet** - Bloquear categorías de sitios de internet que puedan ser riesgosas para la integridad de los equipos y la información: pornografía, descarga de películas, sitios para ver películas online pirateadas.
 
@@ -118,5 +123,9 @@ Es un tema extenso y realmente si la información es una preocupación, conviene
 # Modo paranoia: On
 
 **¿Tapo la cámara?** - Si tu equipo está infectado por un malware (en muchos casos ni te enteras) podría acceder a ver/grabar desde tu webcam. Así que la **respuesta corta es Si**.
+
+**¿Es seguro guardar fotos privadas en mi equipo?** - De nuevo esto dependerá si tu equipo está infectado por algún tipo de malware (o lo estará en el futuro). Es bastante común que si nos roban este tipo de fotos, pidan un "rescate" para no divulgarlas. Así que **No recomendable**
+
+**¿Es seguro el Home banking?** - Los bancos invierten muchos recursos en mantener sus sistemas tan seguros como sea posible. Dicho esto, la otra parte de la seguridad la determina el equipo que utilizas para conectarte, si puedes confiar que es seguro y no está infectado por un virus o spyware. <br />Así que se resume en: **¿que tanto confías en tú equipo?**.
 
 **Navegación privada** - Hay distintos niveles al hablar de navegación privada. Para conocer qué puedes volver privado y cómo visita [este link](./navegacion-privada/).
