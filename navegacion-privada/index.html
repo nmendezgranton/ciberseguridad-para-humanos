@@ -1,0 +1,324 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Ciberseguridad para humanos</title>
+
+    <style>
+      .highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
+.highlight .gh {
+  color: #999999;
+}
+.highlight .sr {
+  color: #f6aa11;
+}
+.highlight .go {
+  color: #888888;
+}
+.highlight .gp {
+  color: #555555;
+}
+.highlight .gs {
+}
+.highlight .gu {
+  color: #aaaaaa;
+}
+.highlight .nb {
+  color: #f6aa11;
+}
+.highlight .cm {
+  color: #75715e;
+}
+.highlight .cp {
+  color: #75715e;
+}
+.highlight .c1 {
+  color: #75715e;
+}
+.highlight .cs {
+  color: #75715e;
+}
+.highlight .c, .highlight .cd {
+  color: #75715e;
+}
+.highlight .err {
+  color: #960050;
+}
+.highlight .gr {
+  color: #960050;
+}
+.highlight .gt {
+  color: #960050;
+}
+.highlight .gd {
+  color: #49483e;
+}
+.highlight .gi {
+  color: #49483e;
+}
+.highlight .ge {
+  color: #49483e;
+}
+.highlight .kc {
+  color: #66d9ef;
+}
+.highlight .kd {
+  color: #66d9ef;
+}
+.highlight .kr {
+  color: #66d9ef;
+}
+.highlight .no {
+  color: #66d9ef;
+}
+.highlight .kt {
+  color: #66d9ef;
+}
+.highlight .mf {
+  color: #ae81ff;
+}
+.highlight .mh {
+  color: #ae81ff;
+}
+.highlight .il {
+  color: #ae81ff;
+}
+.highlight .mi {
+  color: #ae81ff;
+}
+.highlight .mo {
+  color: #ae81ff;
+}
+.highlight .m, .highlight .mb, .highlight .mx {
+  color: #ae81ff;
+}
+.highlight .sc {
+  color: #ae81ff;
+}
+.highlight .se {
+  color: #ae81ff;
+}
+.highlight .ss {
+  color: #ae81ff;
+}
+.highlight .sd {
+  color: #e6db74;
+}
+.highlight .s2 {
+  color: #e6db74;
+}
+.highlight .sb {
+  color: #e6db74;
+}
+.highlight .sh {
+  color: #e6db74;
+}
+.highlight .si {
+  color: #e6db74;
+}
+.highlight .sx {
+  color: #e6db74;
+}
+.highlight .s1 {
+  color: #e6db74;
+}
+.highlight .s {
+  color: #e6db74;
+}
+.highlight .na {
+  color: #a6e22e;
+}
+.highlight .nc {
+  color: #a6e22e;
+}
+.highlight .nd {
+  color: #a6e22e;
+}
+.highlight .ne {
+  color: #a6e22e;
+}
+.highlight .nf {
+  color: #a6e22e;
+}
+.highlight .vc {
+  color: #ffffff;
+}
+.highlight .nn {
+  color: #ffffff;
+}
+.highlight .nl {
+  color: #ffffff;
+}
+.highlight .ni {
+  color: #ffffff;
+}
+.highlight .bp {
+  color: #ffffff;
+}
+.highlight .vg {
+  color: #ffffff;
+}
+.highlight .vi {
+  color: #ffffff;
+}
+.highlight .nv {
+  color: #ffffff;
+}
+.highlight .w {
+  color: #ffffff;
+}
+.highlight {
+  color: #ffffff;
+}
+.highlight .n, .highlight .py, .highlight .nx {
+  color: #ffffff;
+}
+.highlight .ow {
+  color: #f92672;
+}
+.highlight .nt {
+  color: #f92672;
+}
+.highlight .k, .highlight .kv {
+  color: #f92672;
+}
+.highlight .kn {
+  color: #f92672;
+}
+.highlight .kp {
+  color: #f92672;
+}
+.highlight .o {
+  color: #f92672;
+}
+    </style>
+    <link href="../stylesheets/screen-637ce8cc.css" rel="stylesheet" media="screen" />
+    <link href="../stylesheets/print-bccf8c07.css" rel="stylesheet" media="print" />
+      <script src="../javascripts/all_nosearch-c275c2f6.js"></script>
+  </head>
+
+  <body class="navegacion-privada navegacion-privada_index" data-languages="[]">
+    <a href="#" id="nav-button">
+      <span>
+        NAV
+        <img src="../images/navbar-cad8cdcb.png" alt="Navbar" />
+      </span>
+    </a>
+    <div class="toc-wrapper">
+      <img src="../images/logo-1e815a84.png" class="logo" alt="Logo" />
+      <ul id="toc" class="toc-list-h1">
+          <li>
+            <a href="#navegacion-privada" class="toc-h1 toc-link" data-title="Navegación privada">Navegación privada</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#modo-incognito" class="toc-h2 toc-link" data-title="Modo incognito">Modo incognito</a>
+                  </li>
+                  <li>
+                    <a href="#buscador-de-internet" class="toc-h2 toc-link" data-title=" Buscador de internet"> Buscador de internet</a>
+                  </li>
+                  <li>
+                    <a href="#bloqueo-de-trackers" class="toc-h2 toc-link" data-title=" Bloqueo de trackers"> Bloqueo de trackers</a>
+                  </li>
+                  <li>
+                    <a href="#vpn" class="toc-h2 toc-link" data-title=" VPN"> VPN</a>
+                  </li>
+                  <li>
+                    <a href="#dns-privado" class="toc-h2 toc-link" data-title="DNS privado">DNS privado</a>
+                  </li>
+                  <li>
+                    <a href="#tor" class="toc-h2 toc-link" data-title="TOR">TOR</a>
+                  </li>
+              </ul>
+          </li>
+      </ul>
+        <ul class="toc-footer">
+            <li><a href='/'>Volver al inicio</a></li>
+        </ul>
+    </div>
+    <div class="page-wrapper">
+      <div class="dark-box"></div>
+      <div class="content">
+        <h1 id='navegacion-privada'>Navegación privada</h1>
+<p>¿Qué tan privada quieres realmente que sea tu navegación?</p>
+
+<ul>
+<li><p><strong>Meh</strong>: Que las personas que usan el mismo ordenador que yo no puedan ver qué sitios navego.</p></li>
+<li><p><strong>AdBlock</strong>: Que no me rastreen y persigan con publicidad.</p></li>
+<li><p><strong>Privada</strong>: Que la red donde me encuentro no pueda ver qué sitios navego.</p></li>
+<li><p><strong>Realmente privada</strong>: Que mi proveedor de internet no pueda ver qué sitios navego.</p></li>
+<li><p><strong>Modo Dios</strong>: Que Google no pueda ver qué sitios navego.</p></li>
+<li><p><strong>Naive</strong>: Que los servicios de inteligencia no puedan ver qué sitios navego.</p></li>
+</ul>
+<h2 id='modo-incognito'>Modo incognito</h2>
+<p>Todos los navegadores tienen un modo incógnito o navegación privada, diseñado para que al cerrar la ventana se elimine el historial (sitios que visitaste) y datos almacenados, como cookies (utilizadas principalmente para seguimiento).</p>
+
+<p><strong>Nivel de privacidad</strong></p>
+
+<p>Suficiente para que quienes comparten contigo la PC no puedan ver que sitios navegaste, pero tu administrador de red, tu proveedor de internet y Google sabrán qué sitios visitaste.</p>
+<h2 id='buscador-de-internet'> Buscador de internet</h2>
+<p>Es probable que para encontrar esta guía hayas utilizado Google, es probable entonces que de ahora en más Google te muestre publicidad de servicios de seguridad, VPN y otros. Esto es porque Google toma nota de toda búsqueda que haces y hábitos de tu navegación para construir un perfil sobre ti y ofrecerte publicidad.</p>
+
+<p><strong>DuckDuckGo</strong></p>
+
+<p>DuckDuckGo es un buscador de internet (como Google) pero que no te rastrea ni guarda historial de lo que buscas, ni vende tus datos. Es una excelente alternativa si estás preocupado por la cantidad de información que el gigante de internet tiene sobre ti.</p>
+
+<p>Aquí el link: <a href="https://duckduckgo.com/">DuckDuckGo</a>.</p>
+
+<p><strong>Ten en cuenta</strong>: Google es más acertado al hacer búsquedas porque utiliza el contexto que conoce de ti para ofrecerte resultados, al buscar utilizando DuckDuckGo deberás ser más preciso en lo que estás buscando.</p>
+
+<p>Ejemplo: En Google la búsqueda &quot;restaurant&quot; te devolverá una lista de restaurants cerca de ti, ponderando otras búsquedas que hayas hecho antes como comida china, mexicana, etc.  Para obtener el mismo resultado en DuckDuckGo la búsqueda deberá ser más específica: &quot;restaurant buenos aires belgrano comida china&quot;.</p>
+
+<p><strong>Nivel de privacidad</strong></p>
+
+<p>Reducirás en cierta medida la cantidad de información sobre tus hábitos que le das al buscador.</p>
+<h2 id='bloqueo-de-trackers'> Bloqueo de trackers</h2>
+<p>Los trackers son servicios que están presentes en millones de sitios web y hacen seguimiento de los sitios que navegas, términos que buscas, horarios en que utilizas el equipo, ubicación en la que te encuentras y mucho más. El objetivo es utilizar luego esa información para mostrarte publicidad relacionada con tus hábitos. Un gigante de esta práctica es ni más ni menos que Google a través de la mayoría de sus servicios como Analytics, Tag Manager, Ads, etc.</p>
+
+<p><strong>DuckDuckGo</strong></p>
+
+<p>Cuenta además del buscador con un excelente complemento para bloquear estas redes de trackers, lo puedes agregar a Chrome, Firefox e incluso en tu móvil.</p>
+
+<p>Aquí el link: <a href="https://duckduckgo.com/app">DuckDuckGo</a>.</p>
+
+<p><strong>Nivel de privacidad</strong></p>
+
+<p>Suficiente para bloquear la mayoría de los servicios que hacen seguimiento de tu navegación y construyen perfiles sobre ti en sus servidores.</p>
+<h2 id='vpn'> VPN</h2>
+<p>Hay una creciente intención de proveedores de VPN de mostrar su servicio como la bala de plata o <em>lo único necesario</em> para navegar de manera absolutamente privada en internet. Esto no es tan así. Una VPN crea una conexión privada con una red remota (del proveedor VPN) para que la conexión salga desde allí, y entonces oculta tu actividad de la red donde te encuentras, además manteniendo privada tu dirección de internet. <strong>Existen muchos otros aspectos que no resultan protegidos</strong>.</p>
+
+<p><strong>Nivel de privacidad</strong></p>
+
+<p>Suficiente para que ni tu proveedor de internet, ni el administrador de la red donde te encuentras pueda ver los sitios a los que navegas.</p>
+
+<aside class="notice">
+De aquí en más: modo **paranoia heavy metal**.
+</aside>
+<h2 id='dns-privado'>DNS privado</h2>
+<p>Incluso en modo incógnito/privado, en el que tu dispositivo no guardará historial, sí necesitará comunicarse con un servidor de nombres (o DNS) para &quot;encontrar&quot; el sitio al que quieres acceder. Si no sabes qué es un DNS, estás utilizando el de tu proveedor de Internet o el de Google; en ambos casos estos datos se utilizan luego para construir perfiles sobre tus hábitos de navegación.</p>
+
+<p><strong>Nivel de protección</strong>:</p>
+
+<p>Utilizar un DNS privado, como el de Cloudflare que además tiene características de seguridad avanzadas, incrementa un poco más la privacidad de tu navegación. Aquí tienes un <a href="https://1.1.1.1/">link</a>.</p>
+
+<p></aside></p>
+<h2 id='tor'>TOR</h2>
+<p>The Onion Router (acrónimo T.O.R.) es un proyecto de código libre que permite navegar en internet utilizando distintos &quot;saltos&quot; a través de una red mundial. Con ello, TOR vuelve virtualmente imposible rastrear la dirección de tu ordenador y tu identidad tanto para los sitios que navegas, como las redes de trackers y publicidad, e incluso para los demás miembros o &quot;saltos&quot; de la red TOR.</p>
+
+<p><strong>Ten en cuenta</strong>: si inicias sesión en un servicio, por ejemplo de Google, a partir de ese momento podrá rastrearte porque sabe que eres tú quien inició sesión.</p>
+
+<p><strong>¿Cómo utilizarlo?</strong>: Descarga el <a href="https://www.torproject.org/download/">navegador TOR</a>, que se encargará de toda la complejidad de esta red y te permitirá navegador con privacidad.</p>
+
+<p><strong>Nivel de protección</strong>:</p>
+
+<p>Suficiente para que ni tu proveedor de internet, ni Google, redes de rastreo, el administrador de la red de tu compañía ni tu ex puedan ver tu navegación.</p>
+
+      </div>
+      <div class="dark-box">
+      </div>
+    </div>
+  </body>
+</html>
