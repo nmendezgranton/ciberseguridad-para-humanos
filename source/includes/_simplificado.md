@@ -1,7 +1,5 @@
 # Ciberseguridad para humanos
 
-> La seguridad informática es bastante similar a la seguridad física:<br />
-**A mayor el valor de lo que intentas proteger: más medidas, más complejas y mayor inversión.**
 
 Esta guía está pensada **para gente que no tiene conocimientos técnicos** y necesita conocer cómo protegerse de riesgos básicos a los que todos estamos expuestos.
 
