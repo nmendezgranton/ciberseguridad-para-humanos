@@ -7,10 +7,11 @@ Objetivos
 
 
 
-Contactarse:
+Contactarse
 ------------
 
-- [ciberseguridadparahumanos@nmg.systems](mailto:ciberseguridadparahumanos@nmg.systems).
+NMG group, Inc. - [ciberseguridadparahumanos@nmg.systems](mailto:ciberseguridadparahumanos@nmg.systems).
+
 
 
 
