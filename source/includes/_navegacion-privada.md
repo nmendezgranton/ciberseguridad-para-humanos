@@ -1,8 +1,6 @@
 # Navegación privada
 
-En ciberseguridad, como dijimos antes, todo es relativo. Y respecto a la navegación privada nos referimos a
-
-**¿Qué tan privada quieres realmente que sea tu navegación?**
+¿Qué tan privada quieres realmente que sea tu navegación?
 
 * **Meh**: Que las personas que usan el mismo ordenador que yo no puedan ver qué sitios navego.
 
@@ -16,7 +14,7 @@ En ciberseguridad, como dijimos antes, todo es relativo. Y respecto a la navegac
 
 * **Naive**: Que los servicios de inteligencia no puedan ver qué sitios navego.
 
-Existen distintas medidas que proveen distintos niveles de privacidad:
+
 
 ## Modo incognito
 

@@ -471,10 +471,12 @@ html, body {
 
     &.warning {
       background-color: $aside-warning-bg;
+      color:white;
     }
 
     &.success {
       background-color: $aside-success-bg;
+      color:white;
     }
   }
 

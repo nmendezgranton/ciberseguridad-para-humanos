@@ -1,0 +1,400 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Ciberseguridad para humanos</title>
+
+    <style>
+      .highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
+.highlight .gh {
+  color: #999999;
+}
+.highlight .sr {
+  color: #f6aa11;
+}
+.highlight .go {
+  color: #888888;
+}
+.highlight .gp {
+  color: #555555;
+}
+.highlight .gs {
+}
+.highlight .gu {
+  color: #aaaaaa;
+}
+.highlight .nb {
+  color: #f6aa11;
+}
+.highlight .cm {
+  color: #75715e;
+}
+.highlight .cp {
+  color: #75715e;
+}
+.highlight .c1 {
+  color: #75715e;
+}
+.highlight .cs {
+  color: #75715e;
+}
+.highlight .c, .highlight .cd {
+  color: #75715e;
+}
+.highlight .err {
+  color: #960050;
+}
+.highlight .gr {
+  color: #960050;
+}
+.highlight .gt {
+  color: #960050;
+}
+.highlight .gd {
+  color: #49483e;
+}
+.highlight .gi {
+  color: #49483e;
+}
+.highlight .ge {
+  color: #49483e;
+}
+.highlight .kc {
+  color: #66d9ef;
+}
+.highlight .kd {
+  color: #66d9ef;
+}
+.highlight .kr {
+  color: #66d9ef;
+}
+.highlight .no {
+  color: #66d9ef;
+}
+.highlight .kt {
+  color: #66d9ef;
+}
+.highlight .mf {
+  color: #ae81ff;
+}
+.highlight .mh {
+  color: #ae81ff;
+}
+.highlight .il {
+  color: #ae81ff;
+}
+.highlight .mi {
+  color: #ae81ff;
+}
+.highlight .mo {
+  color: #ae81ff;
+}
+.highlight .m, .highlight .mb, .highlight .mx {
+  color: #ae81ff;
+}
+.highlight .sc {
+  color: #ae81ff;
+}
+.highlight .se {
+  color: #ae81ff;
+}
+.highlight .ss {
+  color: #ae81ff;
+}
+.highlight .sd {
+  color: #e6db74;
+}
+.highlight .s2 {
+  color: #e6db74;
+}
+.highlight .sb {
+  color: #e6db74;
+}
+.highlight .sh {
+  color: #e6db74;
+}
+.highlight .si {
+  color: #e6db74;
+}
+.highlight .sx {
+  color: #e6db74;
+}
+.highlight .s1 {
+  color: #e6db74;
+}
+.highlight .s {
+  color: #e6db74;
+}
+.highlight .na {
+  color: #a6e22e;
+}
+.highlight .nc {
+  color: #a6e22e;
+}
+.highlight .nd {
+  color: #a6e22e;
+}
+.highlight .ne {
+  color: #a6e22e;
+}
+.highlight .nf {
+  color: #a6e22e;
+}
+.highlight .vc {
+  color: #ffffff;
+}
+.highlight .nn {
+  color: #ffffff;
+}
+.highlight .nl {
+  color: #ffffff;
+}
+.highlight .ni {
+  color: #ffffff;
+}
+.highlight .bp {
+  color: #ffffff;
+}
+.highlight .vg {
+  color: #ffffff;
+}
+.highlight .vi {
+  color: #ffffff;
+}
+.highlight .nv {
+  color: #ffffff;
+}
+.highlight .w {
+  color: #ffffff;
+}
+.highlight {
+  color: #ffffff;
+}
+.highlight .n, .highlight .py, .highlight .nx {
+  color: #ffffff;
+}
+.highlight .ow {
+  color: #f92672;
+}
+.highlight .nt {
+  color: #f92672;
+}
+.highlight .k, .highlight .kv {
+  color: #f92672;
+}
+.highlight .kn {
+  color: #f92672;
+}
+.highlight .kp {
+  color: #f92672;
+}
+.highlight .o {
+  color: #f92672;
+}
+    </style>
+    <link href="stylesheets/screen-637ce8cc.css" rel="stylesheet" media="screen" />
+    <link href="stylesheets/print-bccf8c07.css" rel="stylesheet" media="print" />
+      <script src="javascripts/all-c5541673.js"></script>
+  </head>
+
+  <body class="index" data-languages="[]">
+    <a href="#" id="nav-button">
+      <span>
+        NAV
+        <img src="images/navbar-cad8cdcb.png" alt="Navbar" />
+      </span>
+    </a>
+    <div class="toc-wrapper">
+      <img src="images/logo-1e815a84.png" class="logo" alt="Logo" />
+        <div class="search">
+          <input type="text" class="search" id="input-search" placeholder="Buscar">
+        </div>
+        <ul class="search-results"></ul>
+      <ul id="toc" class="toc-list-h1">
+          <li>
+            <a href="#introduccion" class="toc-h1 toc-link" data-title="Introducción">Introducción</a>
+          </li>
+          <li>
+            <a href="#claves-contrasenas" class="toc-h1 toc-link" data-title="Claves/contraseñas">Claves/contraseñas</a>
+          </li>
+          <li>
+            <a href="#correo-electronico" class="toc-h1 toc-link" data-title="Correo electrónico">Correo electrónico</a>
+          </li>
+          <li>
+            <a href="#antivirus-y-antimalware" class="toc-h1 toc-link" data-title="Antivirus y antimalware">Antivirus y antimalware</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#antivirus" class="toc-h2 toc-link" data-title="Antivirus">Antivirus</a>
+                  </li>
+                  <li>
+                    <a href="#antimalware" class="toc-h2 toc-link" data-title="Antimalware">Antimalware</a>
+                  </li>
+                  <li>
+                    <a href="#ignora-avisos-inutiles" class="toc-h2 toc-link" data-title=" Ignora avisos inútiles"> Ignora avisos inútiles</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#programas-actualizados" class="toc-h1 toc-link" data-title="Programas actualizados">Programas actualizados</a>
+          </li>
+          <li>
+            <a href="#copia-de-seguridad" class="toc-h1 toc-link" data-title="Copia de seguridad">Copia de seguridad</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#opciones-para-backup" class="toc-h2 toc-link" data-title="Opciones para Backup">Opciones para Backup</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#limpiar-tu-equipo" class="toc-h1 toc-link" data-title="Limpiar tu equipo">Limpiar tu equipo</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#usuarios-de-windows" class="toc-h2 toc-link" data-title="Usuarios de Windows">Usuarios de Windows</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+            <a href="#modo-paranoia-on" class="toc-h1 toc-link" data-title="Modo paranoia: On">Modo paranoia: On</a>
+          </li>
+          <li>
+            <a href="#sentido-comun" class="toc-h1 toc-link" data-title="Sentido común">Sentido común</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#te-llaman-del-banco" class="toc-h2 toc-link" data-title=" Te llaman del banco"> Te llaman del banco</a>
+                  </li>
+                  <li>
+                    <a href="#pariente-lejano-millonario" class="toc-h2 toc-link" data-title="Pariente lejano millonario">Pariente lejano millonario</a>
+                  </li>
+                  <li>
+                    <a href="#has-ganado-un-iphone-11" class="toc-h2 toc-link" data-title=" Has ganado un iPhone 11!"> Has ganado un iPhone 11!</a>
+                  </li>
+              </ul>
+          </li>
+      </ul>
+        <ul class="toc-footer">
+            <li><a href='https://omnicommerce.app'>ciberseguridadparahumanos.org</a></li>
+            <li><a href='https://github.com/slatedocs/slate'>Documentation Powered by Slate</a></li>
+        </ul>
+    </div>
+    <div class="page-wrapper">
+      <div class="dark-box"></div>
+      <div class="content">
+        <h1 id='introduccion'>Introducción</h1>
+<p>La seguridad informática es bastante similar a la seguridad física:<br />
+<strong>A mayor el valor de lo que intentas proteger: más medidas, más complejas y mayor inversión.</strong></p>
+
+<blockquote>
+<p>La abuela no debe tener antivirus en su PC, ni clave en el teléfono. <br />Un banco gasta millones al año, sólo en la seguridad de su información.</p>
+</blockquote>
+
+<p>Esta guía está pensada para que gente que no tiene conocimientos técnicos, conozca y se proteja de riesgos básicos:</p>
+
+<ul>
+<li>No utilizará lenguaje técnico.</li>
+<li>No abarca temas en profundidad.</li>
+</ul>
+<h1 id='claves-contrasenas'>Claves/contraseñas</h1>
+<ul>
+<li><p><strong>Todo tiene que tener una clave</strong> - Tu ordenador al iniciar, tu cuenta de correo, tu smartphone, tu Wi-Fi. Esto es porque cada uno puede utilizarse para desbloquear los otros.</p></li>
+<li><p><strong>Las claves deben ser largas y complejas</strong> - Si tu clave es <code>martina</code>, un programa automático puede averiguarla en 7 minutos, agrégale una mayúscula, un punto y algunos números <code>Martina.18</code> y tardará milenios.</p></li>
+<li><p><strong>No uses la misma clave en todos lados</strong> - Si lo haces y un atacante hackea cualquiera de los servicios que no tuviera medidas de seguridad suficientes, todas tus cuentas estarán expuestas.</p></li>
+<li><p><strong>No las escribas en notas / archivos / post-it</strong> - Es una pésima idea usar las notas de tu smartphone, documentos o planillas para guardarlas. Usa la función &quot;guardar contraseña&quot; que ya tienes en tu navegador de internet. <a href="/claves">Más info</a>.</p></li>
+<li><p><strong>No las mandes por mail</strong> - El mail no es tan seguro como crees, además si un día hackean tu correo tienen tus claves.</p></li>
+</ul>
+<h1 id='correo-electronico'>Correo electrónico</h1>
+<ul>
+<li><p><strong>Es increiblemente fácil de falsificar</strong> - Nunca confíes en un correo electrónico solamente por su remitente. Te sorprendería lo fácil que es enviar un correo en nombre de otra persona o entidad (como un banco).</p></li>
+<li><p><strong>Abre adjuntos sólo si los estás esperando</strong> - Es común que una PC infectada envíe correo a todos los contactos que encuentre, así que es altamente probable recibir un virus de alguien conocido.</p></li>
+<li><p><strong>Nunca envíes información confidencial</strong> - Aunque tu conexión con el proveedor sea segura, la transmisión entre servidores no lo es. Así que si lo que envías es realmente confidencial no lo hagas por correo.</p></li>
+<li><p><strong>Cambia tu clave seguido</strong> - Hoy en día utilizamos el mail para desbloquear/resetear todas las demás claves, si alguien accede a tu correo es un tema posiblemente grave.</p></li>
+</ul>
+<h1 id='antivirus-y-antimalware'>Antivirus y antimalware</h1>
+<p><strong>Usuarios de Mac o Linux</strong> - Puedes ignorar toda esta sección.</p>
+
+<p><strong>Usuarios de Windows</strong> - Es absolutamente necesario que tengas un antivirus y un antimalware. Si utilizas Windows 10, es probable que tengas activo Windows Defender, un antivirus de Microsoft que ha probado ser efectivo.</p>
+<h3 id='antivirus'>Antivirus</h3>
+<p>Todos los antivirus se mantienen actualizados y protegen tu equipo en tiempo real (no necesitas hacer nada más). Si no tienes uno, te recomendamos alguno de los siguientes:</p>
+
+<ul>
+<li><a href="https://www.avast.com/">Avast!</a></li>
+<li><a href="https://www.avg.com/">AVG</a></li>
+</ul>
+<h3 id='antimalware'>Antimalware</h3>
+<p>Un antimalware te protege de otras amenazas además de los virus. Entre otras cosas permite eliminar:</p>
+
+<ul>
+<li>Complementos que abren ventanas emergentes (popups) en tu navegador.</li>
+<li>Programas no deseados que se instalan sin tu consentimiento.</li>
+<li>Utilidades de robo de información (spyware) y ransomware.</li>
+<li>Mucho más.</li>
+</ul>
+
+<p>Actualmente recomendamos Malwarebytes Antimalware: <a href="https://es.malwarebytes.com/">link</a>.</p>
+<h3 id='ignora-avisos-inutiles'> Ignora avisos inútiles</h3>
+<p>Ten en cuenta que los antivirus gratuitos hacen dinero vendiendo funciones adicionales. Algunos de ellos han optado por alarmar a los usuarios por cada riesgo mínimo sin sentido para lograr que compren el producto pago.<br />Por lo que lamentablemente es responsabilidad del usuario (o sea tú), evaluar si lo que te advierte el antivirus es un riesgo real y peligroso, u otra pavada como que alguien puede ver tu dirección IP (de internet).</p>
+<h1 id='programas-actualizados'>Programas actualizados</h1>
+<p>A más viejo el programa (incluido el sistema operativo) más vulnerable. En lo posible:</p>
+
+<ul>
+<li><p><strong>Utiliza un sistema operativo reciente</strong> - Utiliza el sistema operativo más reciente que tu PC admita.</p></li>
+<li><p><strong>Activa las actualizaciones automáticas</strong> - Tanto del sistema operativo como de los programas.</p></li>
+</ul>
+<h1 id='copia-de-seguridad'>Copia de seguridad</h1>
+<blockquote>
+<p>Si tu equipo fue atacado por una horda de chimpancés cibernéticos que han destruido toda tu información y te piden rescate, puedes recuperarla si has hecho una <strong>copia de seguridad</strong>.</p>
+</blockquote>
+
+<p>Si todo lo anterior falló y has perdido o te han robado la información, podrás recuperarla de manera rápida restaurándola  desde un backup que has hecho (esperemos) recientemente.</p>
+<h3 id='opciones-para-backup'>Opciones para Backup</h3>
+<ol>
+<li><p><strong>Copia manual en un pen drive / disco externo</strong> - Puedes enchufar cada tanto el pen drive a tu ordenador y copiar manualmente las carpetas que quieras resguardar, ten en cuenta hacerlo tan seguido como te parezca adecuado.</p></li>
+<li><p><strong>Utilidad de respaldos de tu sistema operativo</strong> - Algunos sistemas operativos incluyen funciones para hacer respaldos automáticos de la información. Aquí tienes instrucciones para <a href="https://support.microsoft.com/es-ar/help/4027408/windows-10-backup-and-restore">Windows 10</a> y <a href="https://support.apple.com/es-es/HT201250">Mac OS</a>.</p></li>
+<li><p><strong>Backup en la nube</strong> - Puedes usar <a href="https://drive.google.com/">Google Drive</a>, <a href="https://www.dropbox.com/">Dropbox</a> u otros servcios de sincronización de archivos para mantener una copia de tus archivos en internet. Además con la ventaja de poder acceder a ellos en cualquier lugar y dispositivo.</p></li>
+</ol>
+<h1 id='limpiar-tu-equipo'>Limpiar tu equipo</h1>
+<p>Es normal que, con el tiempo, tu equipo se vaya poniendo lento gradualmente hasta que un día tengas que reinstalarlo. Ahora, si esto ocurre de un día para otro o realmente está demasiado lento, puede ser un indicador de que tenga algún tipo de infección de virus o malware.</p>
+
+<p><strong>Otros signos de posible infección</strong>:</p>
+
+<ul>
+<li>Al estar navegando en internet se abren páginas solas.</li>
+<li>Se ha cambiado la página de búsqueda o la página inicial.</li>
+<li>Aparece publicidad de la nada.</li>
+</ul>
+<h3 id='usuarios-de-windows'>Usuarios de Windows</h3>
+<ol>
+<li>Actualiza tu antivirus y escanea tu equipo.</li>
+<li>Instala un antimalware y escanea tu equipo.</li>
+</ol>
+<h1 id='modo-paranoia-on'>Modo paranoia: On</h1>
+<p><strong>¿Tapo la cámara?</strong> - Si tu equipo está infectado por un malware (en muchos casos ni te enteras) podría acceder a ver/grabar desde tu webcam. Así que la respuesta corta es Si.</p>
+
+<p><strong>Navegación privada</strong> - Hay distintos niveles al hablar de navegación privada. Para conocer qué puedes volver privado y cómo visita <a href="/navegacion-privada">este link</a>.</p>
+<h1 id='sentido-comun'>Sentido común</h1>
+<p>La mejor medida de seguridad que existe.</p>
+<h3 id='te-llaman-del-banco'> Te llaman del banco</h3>
+<p>Necesitan validar unos datos de tu cuenta y entre esos datos necesitan los 16 dígitos de tu tarjeta de crédito, la fecha de vencimiento y código de seguridad. <br /><strong>Algo anda mal, no?</strong></p>
+<h3 id='pariente-lejano-millonario'>Pariente lejano millonario</h3>
+<p>Si un príncipe Asturiano te ha escrito un e-mail, contándote que eres heredero de su tío por una fortuna de <strong>1.500.000 EUR</strong> y lo único que necesita es que le transfieras <strong>USD 1.000</strong> para poder comprar el ticket de avión y venir a traértelos... <br /><strong>Algo anda mal, no?</strong></p>
+<h3 id='has-ganado-un-iphone-11'> Has ganado un iPhone 11!</h3>
+<p>¡Sólo debes completar la encuesta y será tuyo! <br /><strong>Algo anda mal, no?</strong></p>
+<hr>
+
+<p><strong>Disclaimer</strong>:</p>
+
+<p>Esta información se provee como guía básica con buenas prácticas, no pretende ser una guía definitiva ni tener un alcance total. Como tal, no brindamos ningún tipo de garantías sobre esta información, el usuario es el único responsable del uso que haga de esta información y las consecuencias del uso/consumo de ella.</p>
+
+<p><strong>Busca ayuda especializada</strong>:</p>
+
+<p>Si te encuentras en la necesidad de proteger tu identidad online y tu información o la de tu compañía, te recomendamos buscar ayuda de un profesional de seguridad informática. Puedes encontrar uno buscando en Internet.</p>
+
+      </div>
+      <div class="dark-box">
+      </div>
+    </div>
+  </body>
+</html>

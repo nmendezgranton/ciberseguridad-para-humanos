@@ -1,6 +1,6 @@
 # Sentido común
 
-La mejor medida de seguridad que existe, es siempre el sentido común.
+La mejor medida de seguridad que existe.
 
 ### Te llaman del banco
 
