@@ -1,14 +1,14 @@
-# Introducción
+# Ciberseguridad para humanos
 
-La seguridad informática es bastante similar a la seguridad física:<br />
+> La seguridad informática es bastante similar a la seguridad física:<br />
 **A mayor el valor de lo que intentas proteger: más medidas, más complejas y mayor inversión.**
 
-> La abuela no debe tener antivirus en su PC, ni clave en el teléfono. <br />Un banco gasta millones al año, sólo en la seguridad de su información.
-
-Esta guía está pensada para que gente que no tiene conocimientos técnicos, conozca y se proteja de riesgos básicos:
+Esta guía está pensada **para gente que no tiene conocimientos técnicos** y necesita conocer cómo protegerse de riesgos básicos a los que todos estamos expuestos.
 
 * No utilizaremos lenguaje técnico.
 * No abarca temas en profundidad.
+
+
 
 <aside class="warning">
 <strong>Si crees que te han hackeado esta guía no te ayudará:</strong><br />
