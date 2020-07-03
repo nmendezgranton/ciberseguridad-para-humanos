@@ -18,7 +18,7 @@ Esta guía está pensada para que gente que no tiene conocimientos técnicos, co
 
 * **No uses la misma clave en todos lados** - Si lo haces y un atacante hackea cualquiera de los servicios que no tuviera medidas de seguridad suficientes, todas tus cuentas estarán expuestas.
 
-* **No las escribas en notas / archivos / post-it** - Es una pésima idea usar las notas de tu smartphone, documentos o planillas para guardarlas. Usa la función "guardar contraseña" que ya tienes en tu navegador de internet. [Más info](/claves).
+* **No las escribas en notas / archivos / post-it** - Es una pésima idea usar las notas de tu smartphone, documentos o planillas para guardarlas. Usa la función "guardar contraseña" que ya tienes en tu navegador de internet. [Más info](./claves/).
 
 * **No las mandes por mail** - El mail no es tan seguro como crees, además si un día hackean tu correo tienen tus claves.
 
