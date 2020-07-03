@@ -1,3 +1,10 @@
+# Ciberseguridad para humanos
+
+https://ciberseguridadparahumanos.org
+
+Una guía simple, pensada **para gente que no tiene conocimientos técnicos** y necesita conocer cómo protegerse de riesgos básicos a los que todos estamos expuestos.
+
+
 Objetivos
 ------------
 
