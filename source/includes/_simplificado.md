@@ -31,7 +31,7 @@ Esta guía está pensada para que gente que no tiene conocimientos técnicos, co
 
 * **Nunca envíes información confidencial** - Aunque tu conexión con el proveedor sea segura, la transmisión entre servidores no lo es. Así que si lo que envías es realmente confidencial no lo hagas por correo.
 
-* **Cambia tu clave seguido** - Hoy en día utilizamos el mail para desbloquear/resetear todas las demás claves, si alguien accede a tu correo es un tema posiblemente grave.
+* **Cambia tu clave con frecuencia** - Hoy en día utilizamos el mail para desbloquear/resetear todas las demás claves, si alguien accede a tu correo es un tema posiblemente grave.
 
 
 # Antivirus y antimalware
@@ -42,7 +42,7 @@ Esta guía está pensada para que gente que no tiene conocimientos técnicos, co
 
 ### Antivirus
 
-Todos los antivirus se mantienen actualizados y protegen tu equipo en tiempo real (no necesitas hacer nada más). Si no tienes uno, te recomendamos alguno de los siguientes:
+Todos los antivirus se mantienen actualizados y protegen tu equipo en tiempo real (no necesitas hacer nada más). Si no tienes uno, te recomendamos alguno de los siguientes (que tienen opciones gratuitas):
 
 * [Avast!](https://www.avast.com/)
 * [AVG](https://www.avg.com/)
@@ -54,13 +54,12 @@ Un antimalware te protege de otras amenazas además de los virus. Entre otras co
 * Complementos que abren ventanas emergentes (popups) en tu navegador.
 * Programas no deseados que se instalan sin tu consentimiento.
 * Utilidades de robo de información (spyware) y ransomware.
-* Mucho más.
 
 Actualmente recomendamos Malwarebytes Antimalware: [link](https://es.malwarebytes.com/).
 
 ### Ignora avisos inútiles
 
-Ten en cuenta que los antivirus gratuitos hacen dinero vendiendo funciones adicionales. Algunos de ellos han optado por alarmar a los usuarios por cada riesgo mínimo sin sentido para lograr que compren el producto pago.<br />Por lo que lamentablemente es responsabilidad del usuario (o sea tú), evaluar si lo que te advierte el antivirus es un riesgo real y peligroso, u otra pavada como que alguien puede ver tu dirección IP (de internet).
+Ten en cuenta que los antivirus gratuitos hacen dinero vendiendo funciones adicionales. Algunos de ellos **han optado por alarmar a los usuarios por cada riesgo mínimo sin sentido** para lograr que compren el producto pago.<br />Lamentablemente es responsabilidad del usuario (o sea tuya), evaluar si lo que te advierte el antivirus es un riesgo real y potencialmente peligroso (como un virus), o alguna pavada como que alguien puede ver tu dirección IP (de internet).
 
 
 # Programas actualizados
@@ -71,7 +70,7 @@ A más viejo el programa (incluido el sistema operativo) más vulnerable. En lo 
 
 * **Activa las actualizaciones automáticas** - Tanto del sistema operativo como de los programas.
 
-# Copia de seguridad
+# Copias de seguridad
 
 > Si tu equipo fue atacado por una horda de chimpancés cibernéticos que han destruido toda tu información y te piden rescate, puedes recuperarla si has hecho una **copia de seguridad**.
 
@@ -87,7 +86,7 @@ Si todo lo anterior falló y has perdido o te han robado la información, podrá
 
 # Limpiar tu equipo
 
-Es normal que, con el tiempo, tu equipo se vaya poniendo lento gradualmente hasta que un día tengas que reinstalarlo. Ahora, si esto ocurre de un día para otro o realmente está demasiado lento, puede ser un indicador de que tenga algún tipo de infección de virus o malware.
+Es normal que, con el tiempo, tu equipo se vaya poniendo lento gradualmente hasta que un día tengas que reinstalarlo. Ahora, si esto ocurre de un día para otro o realmente está demasiaaaaaaadddo leeeeeentooo, puede ser un indicador de que tenga algún tipo de infección de virus o malware.
 
 **Otros signos de posible infección**:
 
@@ -102,6 +101,22 @@ Es normal que, con el tiempo, tu equipo se vaya poniendo lento gradualmente hast
 
 # Modo paranoia: On
 
-**¿Tapo la cámara?** - Si tu equipo está infectado por un malware (en muchos casos ni te enteras) podría acceder a ver/grabar desde tu webcam. Así que la respuesta corta es Si.
+**¿Tapo la cámara?** - Si tu equipo está infectado por un malware (en muchos casos ni te enteras) podría acceder a ver/grabar desde tu webcam. Así que la **respuesta corta es Si**.
 
-**Navegación privada** - Hay distintos niveles al hablar de navegación privada. Para conocer qué puedes volver privado y cómo visita [este link](/navegacion-privada).
+**Navegación privada** - Hay distintos niveles al hablar de navegación privada. Para conocer qué puedes volver privado y cómo visita [este link](./navegacion-privada/).
+
+# Empresas
+
+Las empresas se encuentran con todo un panorama distinto de seguridad y se debe a que en general se comparten recursos (como archivos) entre distintos equipos, utilizados por distintos usuarios, con distintos roles, niveles de conocimiento y hábitos.
+
+Es un tema extenso y realmente si la información es una preocupación, conviene contratar un profesional para analizar el caso particular. Dicho esto, algunas recomendaciones generales:
+
+1. **Cada quien con su clave** - No se deben compartir usuarios y claves entre usuarios.
+
+2. **Política de mínimos privilegios** - No dar acceso a los usuarios a recursos (archivos, carpetas, etc.) a los que no necesiten acceso para llevar a cabo sus funciones. Esto permite reducir el impacto en caso que su usuario se vea comprometido. (Nadie debería ser administrador de su propio equipo, exceptuando a gente de sistemas).
+
+3. **Controlar el uso de internet** - Bloquear categorías de sitios de internet que puedan ser riesgosas para la integridad de los equipos y la información: pornografía, descarga de películas, sitios para ver películas online piratas.
+
+4. **Backups rotativos** - Mantener copias históricas (no sólo la última) de la información permite recuperarla incluso si se detecta un problema mucho tiempo después.
+
+5. **No compartir Wi-Fi con clientes** - Esto hace que puedan ver los equipos de la red y potencialmente acceder a la información en ellos. La mayoría de los routers modernos permiten crear una red adicional para invitados aislada y segura.
