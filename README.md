@@ -10,7 +10,7 @@ Objetivos
 Contactarse
 ------------
 
-NMG group, Inc. - [ciberseguridadparahumanos@nmg.systems](mailto:ciberseguridadparahumanos@nmg.systems).
+NMG group, Inc. - Web(https://nmg.systems) / [E-mail](mailto:ciberseguridadparahumanos@nmg.systems).
 
 
 
