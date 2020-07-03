@@ -99,12 +99,6 @@ Es normal que, con el tiempo, tu equipo se vaya poniendo lento gradualmente hast
 1. Actualiza tu antivirus y escanea tu equipo.
 2. Instala un antimalware y escanea tu equipo.
 
-# Modo paranoia: On
-
-**¿Tapo la cámara?** - Si tu equipo está infectado por un malware (en muchos casos ni te enteras) podría acceder a ver/grabar desde tu webcam. Así que la **respuesta corta es Si**.
-
-**Navegación privada** - Hay distintos niveles al hablar de navegación privada. Para conocer qué puedes volver privado y cómo visita [este link](./navegacion-privada/).
-
 # Empresas
 
 Las empresas se encuentran con todo un panorama distinto de seguridad y se debe a que en general se comparten recursos (como archivos) entre distintos equipos, utilizados por distintos usuarios, con distintos roles, niveles de conocimiento y hábitos.
@@ -113,10 +107,16 @@ Es un tema extenso y realmente si la información es una preocupación, conviene
 
 1. **Cada quien con su clave** - No se deben compartir usuarios y claves entre usuarios.
 
-2. **Política de mínimos privilegios** - No dar acceso a los usuarios a recursos (archivos, carpetas, etc.) a los que no necesiten acceso para llevar a cabo sus funciones. Esto permite reducir el impacto en caso que su usuario se vea comprometido. (Nadie debería ser administrador de su propio equipo, exceptuando a gente de sistemas).
+2. **Política de mínimos privilegios** - No dar acceso a los usuarios a recursos (archivos, carpetas, etc.) a los que no necesiten acceso para llevar a cabo sus funciones. Esto permite reducir el impacto en caso que su usuario se vea comprometido.
 
-3. **Controlar el uso de internet** - Bloquear categorías de sitios de internet que puedan ser riesgosas para la integridad de los equipos y la información: pornografía, descarga de películas, sitios para ver películas online piratas.
+3. **Controlar el uso de internet** - Bloquear categorías de sitios de internet que puedan ser riesgosas para la integridad de los equipos y la información: pornografía, descarga de películas, sitios para ver películas online pirateadas.
 
-4. **Backups rotativos** - Mantener copias históricas (no sólo la última) de la información permite recuperarla incluso si se detecta un problema mucho tiempo después.
+4. **Backups rotativos** - Mantener copias históricas (no sólo la última) de la información importante; esto permite recuperarla incluso si se detecta un problema mucho tiempo después.
 
-5. **No compartir Wi-Fi con clientes** - Esto hace que puedan ver los equipos de la red y potencialmente acceder a la información en ellos. La mayoría de los routers modernos permiten crear una red adicional para invitados aislada y segura.
+5. **No compartir Wi-Fi con clientes** - Esto hace que puedan ver los equipos de la red y potencialmente acceder a la información en ellos. La mayoría de los routers modernos permiten crear una red adicional para invitados (aislada y segura).
+
+# Modo paranoia: On
+
+**¿Tapo la cámara?** - Si tu equipo está infectado por un malware (en muchos casos ni te enteras) podría acceder a ver/grabar desde tu webcam. Así que la **respuesta corta es Si**.
+
+**Navegación privada** - Hay distintos niveles al hablar de navegación privada. Para conocer qué puedes volver privado y cómo visita [este link](./navegacion-privada/).
