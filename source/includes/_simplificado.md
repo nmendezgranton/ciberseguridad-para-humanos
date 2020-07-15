@@ -39,7 +39,7 @@ Esta guía es preventiva. Para este caso deberás contratar a un especialista qu
 
 # Antivirus y antimalware
 
-**Usuarios de Mac o Linux** - Puedes ignorar toda esta sección.
+**Usuarios de Mac o Linux** - No instales MacKeeper [¿por qué?](https://es.wikipedia.org/wiki/MacKeeper).
 
 **Usuarios de Windows** - Es absolutamente necesario que tengas un antivirus y un antimalware. Si utilizas Windows 10, es probable que tengas activo Windows Defender, un antivirus de Microsoft que ha probado ser efectivo.
 
